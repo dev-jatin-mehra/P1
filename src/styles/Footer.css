@@ -1,0 +1,30 @@
+.footer {
+    border-radius: 0.5em;
+    width: -webkit-fill-available;
+    height: 200px;
+    background: #ffffff17;
+    backdrop-filter: blur(15px);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: system-ui;
+    flex-direction: column;
+    margin: 0.5em;
+}
+
+.socialMedia svg {
+    color: white;
+    margin: 20px;
+    font-size: 70px;
+    cursor: pointer;
+}
+
+.footer p {
+    color: white;
+}
+
+@media only screen and (max-width:600px) {
+    .footer svg {
+        font-size: 50px;
+    }
+}

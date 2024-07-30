@@ -1,0 +1,108 @@
+.home {
+  width: 100%;
+  align-items: center;
+  font-family: "Arial", sans-serif;
+}
+
+.about {
+  width: 100%;
+  height: calc(100vh - 100px);
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  color: #f0f0f0;
+}
+
+.about h2 {
+  font-family: system-ui;
+  font-size: 70px;
+  color: #e9d35b;
+  height: 30px;
+}
+
+.about .prompt {
+  font-weight: 400;
+  width: 40%;
+  font-family: system-ui;
+  font-size: 20px;
+}
+
+.prompt svg {
+  font-size: 45px;
+  margin: 0.5em 0.3em;
+  color: white;
+}
+
+.skills {
+  font-size: 35px;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  align-items: center;
+}
+
+.skills h1 {
+  color: #69e0c3;
+  font-size: 3rem;
+}
+
+.skills .list {
+  gap: 1em;
+  flex-wrap: wrap;
+  list-style: none;
+  display: flex;
+  justify-content: center;
+  width: 75%;
+  color: #f0f0f0;
+}
+
+.skills .list .item {
+  border-radius: 0.5em;
+  border: 1px solid #c3c3c3;
+  height: auto;
+  width: 400px;
+  min-height:150px;
+  padding: 0.7em;
+}
+
+.skills .list h2 {
+  color: #dddddd;
+  font-size: 2rem;
+  margin: 0;
+}
+
+.skills .list span {
+  color: #dddddd;
+  font-size: 1rem;
+}
+
+.list span {
+  font-size: 20px;
+}
+
+@media only screen and (max-width: 600px) {
+  .about h2 {
+    font-size: 40px;
+  }
+
+  .about .prompt {
+    margin-top: 10px;
+    font-size: 20px;
+    width: 80%;
+  }
+
+  .skills {
+    text-align: center;
+  }
+
+  .list {
+    padding: 0;
+  }
+
+  .skills h2 {
+    font-size: 30px;
+  }
+}
