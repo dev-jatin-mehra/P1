@@ -1,7 +1,6 @@
 import React from "react";
 import GithubIcon from '@mui/icons-material/GitHub';
 import EmailIcon from '@mui/icons-material/Email';
-import LinkedInIcon from '@mui/icons-material/LinkedIn';
 import '../styles/Home.css';
 
 function Home() {
@@ -9,13 +8,12 @@ function Home() {
     <div className="home">
       <div className="about">
         <h2>Hi, I am Jatin Singh Mehra</h2>
-        <div className="prompt">
+        <div className="prompt" > 
           <p>
             A Data Science Enthusiast with a passion for data driven solutions and insights
-            </p>
-          <EmailIcon/>
-          <GithubIcon/>
-          <LinkedInIcon/>
+          </p>
+          <a href="mailto:dev.jatin.singh@gmail.com"><EmailIcon/></a>
+          <a href="https://github.com/dev-jatin-mehra"><GithubIcon/></a>
         </div>
       </div>
       <div className="skills">
